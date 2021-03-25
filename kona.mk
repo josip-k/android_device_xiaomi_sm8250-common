@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
     init.target.wigig.rc \
     fstab.qcom \
     ueventd.qcom.rc \
+    init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
